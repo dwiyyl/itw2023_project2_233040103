@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+.navbar {
+    background: #6c9ebc;
+}
+/* home */
+body{
+    background: #efefef;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: antiquewhite;
+    text-align: center;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,.5);
+    z-index: 1;
+}
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font: bold;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.carousel.slide 
+
+/* about */
+.about{
+    background: #f9f6f1;
+}
+.about .about-text h2{
+    color: #6b6b6b;
+}
+.about .about-text p{
+    color: #2e2c2b;
+}
+.about-img img{
+    border-radius: 50%;
+}
+.about .btn{
+    background: #6c9ebc;
+
+}
+/*  */
+
+/* program */
+.program{
+    background: #6c9ebc;
+}
+.program .card-title{
+    font-size: 20px;
+}
+.program h2{
+    color: #f9f6f1;
+}
+.w-100{
+    height: 100vh;
+}
+.program .card-body i{
+    font-size: 50px;
+}
+.program .card.text-white.text-center.pb-2:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+.program .card-body img{
+    border-radius: 50%;
+}
+.program .card-body h3, h4, h6{
+    color: #000;
+}
+.program .card-body {
+    background: #fef1da;
+
+}
+.program .btn{
+    background: #6c9ebc;
+}
+/* gallery */
+.gallery {
+    background: #f9f6f1;
+}
+.gallery h2{
+    color: #6c9ebc;
+}
+.gallery .card{
+    box-shadow: 15px 15px 40px rgba(92, 171, 228, 0.15);
+}
+.gallery .card.text-center.bg-white.pb-2:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+/* teacher */
+.teacher .card-body i{
+    font-size: 20px;
+}
+.teacher .card{
+    box-shadow: 15px 15px 40px rgba(92, 171, 228, 0.15);
+}
+.teacher{
+    background: #6c9ebc;
+}
+.teacher h2{
+    color:#f9f6f1;
+}
+
+/* Contact */
+.contact{
+    background: #f9f6f1;
+}
+.contact h2{
+    color: #6c9ebc;
+}
+/* footer */
+.footer .last-text {
+    justify-items: center;
+}
+
+
+/* Responsive CSS */
+@media only screen and (max-width:1920px){
+    .card{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+}
